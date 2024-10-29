@@ -19,6 +19,17 @@ conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=11.1 -c pytorch -c c
 pip install timm==0.3.2
 ```
 
+### solve “No module named 'tensorboard' ”problem
+```bash
+pip3 install tb-nightly
+pip3 install future
+```
+
+### Install matplotlib:
+```bash
+pip install matplotlib
+```
+
 ### Pretrain on Inf30
 ```bash
 python main_pretrain_infmae30.py --world_size 1 --local_rank 0 --rank 0
